@@ -1,4 +1,6 @@
 include <Adafruit_VL53L0X.h>
+#include <LiquidCrystal_I2C.h>
+
 
 Adafruit_VL53L0X sensor;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
